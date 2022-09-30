@@ -1,0 +1,54 @@
+Using for loop to iterate JSON
+
+            var a = [{
+            "name": "Ajith",
+            "age": "49",
+            "gender": "male",
+            "hobbies": "cricket"
+                  }]
+            for (var i = 0; i <parseInt(a.length); i++) {
+                  console.log(a);
+                 }
+               console.log(a[0].name);
+
+Using for of loop to iterate JSON
+
+               var a = [{
+              "name": "Ajith",
+              "age": "49",
+              "gender": "male",
+              "hobbies": "cricket"
+                   }]
+               for (var i of a ){
+                   console.log(i);
+                       }
+
+Using for in loop to iterate JSON
+
+                var a = [{
+               "name": "Ajith",
+               "age": "49",
+               "gender": "male",
+               "hobbies": "cricket"
+                     }]
+                for (var i in a ){
+                    console.log(a[i]);
+                        }
+
+Using forEach loop to iterate JSON
+
+               var a = [{
+                "name": "Ajith",
+               "age": "49",
+               "gender": "male",
+               "hobbies": "cricket"
+                     }]
+                a.forEach(item=>{
+                     console.log(item);
+                        });
+
+
+
+
+
+

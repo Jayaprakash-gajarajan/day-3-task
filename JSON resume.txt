@@ -1,0 +1,54 @@
+JSON format resume.
+{
+"personel details": {
+    "name": "Jayaprakash G",
+    "gender": "male",
+    "email": "jayaprakash2312@gmail.com",
+    "phone": "6380535923",
+    "degree": "Bachelor's of Engineering ",
+    "website": "https://docs.google.com/document/d/1EIpyPIt",
+    "location": {
+      "address": "chennai annanagar door no 234",
+      "postalCode": "636306",
+      "city": "annanagar",
+      "region": "Hindu"
+              },
+
+  "work": [
+    {
+      "company": "zogo",
+      "position": "full stack developer",
+      "startDate": "22-09-2022",
+      "endDate": "22-09-2025",
+      }
+    ],
+ "education": [
+    {
+      "institution": "GCE Dharmapuri",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Full TIME",
+      "startDate": "03-08-2018",
+      "endDate": "04-07-2022",
+      "gpa": "Nil",
+         }
+          ],
+ "skills": [
+    {
+      "name": "Programing",
+      "level": "intermitate",
+      "keywords":"JavaScipt",
+    }
+  ],
+ "languages": [
+    {
+      "language": "English",
+      "fluency": "Good",
+    }
+  ],
+ "interests": [
+    {
+      "name": "Cricket",
+     
+    }
+  ]
+}
